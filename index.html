@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocoa moka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b0ddde31e2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div class="back">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid" style="margin-top: -12px;">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="images/logonew.png" alt="Logo" width="250px" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                
+                
+                
+                
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home" style="text-decoration: none;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactUs.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        
+    <!-- ----------------------------------------------------- -->
+    <header class="header">
+        <div class="overlay">
+            <div class="container text-center">
+                <h1 id="dynamicGreeting">Welcome to Chocoa Moka</h1>
+                <p>Your go-to place for delicious sweets and pastries</p>
+                <a href="menu.html" class="btn menubtn">View Menu</a>
+                <a href="contactUs.html" class="btn contbtn">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    
+    </div>
+
+    <!-- ---------------------------------------------------------- -->
+    <section id="special-offers" class="offers-section pt-5">
+        <div class="container">
+            <h2 class="text-center mb-4 offertitle">Our Special Offers</h2>
+            <div id="offersCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="offers-container">
+                    <!-- Cards will be dynamically generated here -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#offersCarousel" data-bs-slide="prev" style="left: 5px;">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#offersCarousel" data-bs-slide="next" style="right: 5px;">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------------------------------------------- -->
+     <!-- <div class="cover">  -->
+          <section class="about-us" id="about">
+        <div class="overlay">
+            <div class="content text-center">
+                <h1 style="letter-spacing: 4px;">About Us</h1>
+                <p class="tagline" style="letter-spacing: 7px;">The best sweet taste is only with us</p>
+                <p class="aboutText">
+                    Our restaurant is at your service and provides the finest types of delicious chocolate sweets                </p>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+ 
+    <!-- ------------------------------------------------------ -->
+
+    <footer >
+        <div class="footer">
+            <div class="container containerfooter">
+                <div class="row footerContainer">
+                    <div class="col-md-6 p-2">
+                        <h4>Our Location</h4>
+                        <p>078 Restaurant  Univercity St,</p>
+                        <p>City, State, 112201</p>
+                    </div>
+                    <div class="col-md-6 social-media p-2">
+                        <h4>Social Media</h4>
+                        <div class="social-media-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <p>&copy; All Rights Reserved, NedaaAlyasinRestaurant</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+    
+    
+  <script src="script.js"></script>
+</body>
+</html>
