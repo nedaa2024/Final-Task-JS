@@ -47,6 +47,11 @@ body {
   background-size: cover;
   height: 100vh; /* Full screen height */
 }
+.backnav{
+  background: url("images/logonav.png") no-repeat center center;
+  background-size: cover;
+  border-bottom: none;
+}
 .offertitle{color: white;}
 #special-offers{
   background-color: #120902;
