@@ -74,9 +74,7 @@ body {
 .back {
   background: url("images/22.jpg") no-repeat center center;
   background-size: cover;
-  height: 100vh; /* Full screen height */
-  position: relative;
-  height: 100vh;
+  height: auto; /* Full screen height */
 }
 .offertitle{color: white;}
 #special-offers{
@@ -95,7 +93,7 @@ body {
 .header h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .header p {
@@ -111,6 +109,7 @@ body {
   background-color: #e6b639;
   color: black;
   border: none;
+  margin-bottom: 50px !important;
 }
 
 .searchbtn:focus{
@@ -124,6 +123,7 @@ box-shadow: none !important;
 .contbtn {
   border: #e6b639 2px solid;
   background-color: transparent;
+  margin-bottom: 50px !important;
 }
 /* ********offers************************ */
 .offers-section .card {
