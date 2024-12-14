@@ -1,62 +1,33 @@
-.nav-link {
-  color: #FFEBAF !important;
+body {
+  background-color: #150e00;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
 
 .btn {
   border: #FEEBAD solid 2px;
   color: antiquewhite;
 }
 
-body {
-  background-color: #F5E1C0;
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.navbar {
-  /* background: rgb(0 0 0 / 63%);  */
-}
-/* *--------------------------- */
 .nav-link {
   color: #FFEBAF !important;
 }
-/* 
-.btn {
-  border: #8d7536 solid 2px;
-  color: rgb(255, 255, 255);
-} */
 
-body {
-  background-color: #150e00;
-}
 
-.navbar {
-  /* background: rgb(0 0 0 / 63%); */
-}
 
-.searchinput:focus {
-  box-shadow: 0 0 8px 2px yellow;
-  outline: none;
-}
 
-.searchbtn:focus {
-  color: white;
-}
-.searchbtn:hover {
-  color: white;
-}
-.searchbtn:active {
-  box-shadow: 0 0 4px 2px yellow;
-  color: white;
-}
-.searchbtn:focus {
-  box-shadow: 0 0 8px 2px yellow;
-  color: white;
-}
+
+
 
 .contbtn:hover{
   color: white;
+  box-shadow: none
+
+}
+.contbtn:focus,.menubtn:focus{
+  box-shadow: none;
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254,235,173,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -67,18 +38,17 @@ body {
 }
 
 
-/* *--------------------------- */
+/* *------------offer section--------------- */
 .overlay{
   background-color: transparent !important;
 }
 .back {
   background: url("images/22.jpg") no-repeat center center;
   background-size: cover;
-  height: auto; /* Full screen height */
+  height: 100vh; /* Full screen height */
 }
 .offertitle{color: white;}
 #special-offers{
-  /* background-image: url('images/ab3.jpg'); */
   background-color: #120902;
 }
 .header .overlay {
@@ -130,10 +100,6 @@ box-shadow: none !important;
   transition: transform 0.3s;
 }
 
-/* .offers-section .card:hover {
-  transform: scale(1.05);
-} */
-
 .card-img-top {
   height: 60%;
 }
@@ -163,8 +129,7 @@ box-shadow: none !important;
   right: 5px;
 }
 
-/* Add margin to the cards on small screens */
-/* Adjust the cards for responsive design */
+
 @media (max-width: 767.98px) {
   .carousel-inner .carousel-item {
     padding: 0 15px;
@@ -212,7 +177,7 @@ box-shadow: none !important;
 
 }
 .carousel .carousel-item {
-  transition: transform 0.7s ease-in-out; /* انتقال سلس باستخدام transform */
+  transition: transform 0.7s ;
 }
 
 .carousel-inner {
@@ -234,7 +199,8 @@ position: relative;
 border-top-left-radius: 30px; 
  border-top-right-radius: 30px;
 }
-/* ------------------------------------------------- */
+
+/* ----------------about us section--------------------------------- */
 
 .cover{
   background: url('images/creama.png') no-repeat center center;
@@ -243,9 +209,8 @@ border-top-left-radius: 30px;
 }
 .about-us {
   position: relative;
-  /* background: url('images/offerbackground.jpg') no-repeat center center; */
   background-size: cover;
-  height: 100vh; /* Full screen height */
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,12 +218,11 @@ border-top-left-radius: 30px;
   background-color: #120902;
   background-image: url('./images/ttt.png');
   background-size: cover;
-  /* backdrop-filter: revert-layer; */
   margin-top: -114px;
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
   width: 100%;
   height: 100%;
   display: flex;
@@ -278,7 +242,7 @@ border-top-left-radius: 30px;
 .tagline {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #ebc668; /* Adjust this color as needed */
+  color: #ebc668; 
 }
 
 .aboutText {
@@ -286,9 +250,8 @@ border-top-left-radius: 30px;
 }
 
 
-/* *****************footer */
+/* *****************footer*************************** */
 
-/* footer */
 footer ul li {
   display: inline-block;
   margin-left: 0px;
@@ -357,7 +320,11 @@ footer ul li {
       justify-content: center;
   }
 }
-
+@media (max-width: 500px) {
+  .logo{
+    width: 240px;
+  }
+}
 
 .col-md-6.social-media.p-2 {
   text-align: center;

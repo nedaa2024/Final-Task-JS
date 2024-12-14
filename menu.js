@@ -2,55 +2,55 @@ const menuItems = {
     mainCourse: [
       {
         title: "Hot Choco",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$8",
         image: "./images/03.jpeg"
       },
       {
         title: "Pan Cake",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$5",
         image: "./images/20.jpg"
       },
       {
         title: "Milk Cake",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$2",
         image: "./images/3.jpeg"
       },
       {
         title: "Cream Cake",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$7",
         image: "./images/4.jpeg"
       },
       {
         title: "Choco Cake",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$8",
         image: "./images/5.jpeg"
       },
       {
         title: "Choco Moka",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$20",
         image: "./images/6.jpeg"
       },
       {
         title: "Hot chco",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$8",
         image: "./images/7.jpg"
       },
       {
         title: "Choco So",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$8",
         image: "./images/9.jpg"
       }
      ,  {
         title: "Choco Lamo",
-        text: "Rich and creamy chocolate cake",
+        text: "Rich and creamy chocolate ",
         price: "$12",
         image: "./images/004.jpeg"
       }

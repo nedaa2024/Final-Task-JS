@@ -27,7 +27,6 @@
 
 .menu-card img {
   width: 80px; 
-  /* margin-right: 10px; */
   max-height: 100px;
   height: 80px;
   border-radius: 10px;
@@ -74,8 +73,8 @@ hr{
   font-size: 12px;
   color: antiquewhite;
   font-weight: lighter;
-  margin-bottom: 14px;
-  margin-top: -11px;
+  margin-bottom: 12px;
+  margin-top: -12px;
 }
 
 .row-container {
@@ -159,9 +158,6 @@ hr{
     font-size: 10px !important; 
   }
 }
-.card-title{
-  /* margin-top: 35px !important; */
-}
 
 .buy{
   margin-left: 5px;
@@ -206,7 +202,7 @@ color: #ffd966;
   }
   .dis{
     font-size: 6px !important;
-    margin-top: -17px;
+    margin-top: -15px;
   }
   .card-body {
     padding-left: -10px;
