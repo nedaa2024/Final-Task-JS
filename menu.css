@@ -24,6 +24,12 @@
   height: auto;
   border-radius: 10px;
 }
+.price:hover {
+  font-size: 30px !important; 
+  transition: font-size 0.3s ease !important;
+  cursor:default;
+}
+
 
 .menu-card img {
   width: 80px; 
