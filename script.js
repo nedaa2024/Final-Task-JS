@@ -27,35 +27,37 @@ const specialOffers = [
     { image: './images/about2.jpg', name: 'Special Offer', price: '$19.00' },
     { image: './images/08.jpeg', name: 'Special Offer', price: '$19.00' },
     { image: './images/25.jpg', name: 'Special Offer', price: '$19.00' }
-];
-
-const offersContainer = document.getElementById('offers-container');
-let groupCount = 0;
-
-for (let i = 0; i < specialOffers.length; i += 4) {
+  ];
+  
+  const offersContainer = document.getElementById('offers-container');
+  let groupCount = 0;
+  
+  for (let i = 0; i < specialOffers.length; i += 4) {
     const carouselItem = document.createElement('div');
     carouselItem.className = `carousel-item ${groupCount === 0 ? 'active' : ''}`;
     const rowDiv = document.createElement('div');
     rowDiv.className = 'row rowoffer';
-
+  
     for (let j = i; j < i + 4 && j < specialOffers.length; j++) {
-        const offer = specialOffers[j];
-        const offerCard = document.createElement('div');
-        offerCard.className = 'col-12 col-md-4 col-lg-3';
-        offerCard.innerHTML = `
-            <div class="card mb-4 cardoffer">
-                <img src="${offer.image}" class="card-img-top" alt="${offer.name}">
-                <i class="fa-solid fa-certificate" style="color: #ffc800;"></i>
-                <div class="card-body">
-                    <h5 class="card-title">${offer.name}</h5>
-                    <p class="card-text priceoffer">${offer.price}</p>
-                </div>
-            </div>
-        `;
-        rowDiv.appendChild(offerCard);
+      const offer = specialOffers[j];
+      const offerCard = document.createElement('div');
+      offerCard.className = 'col-12 col-md-4 col-lg-3';
+      offerCard.innerHTML = `
+        <div class="card mb-4 cardoffer">
+          <img src="${offer.image}" class="card-img-top" alt="${offer.name}">
+          <i class="fa-solid fa-certificate" style="color: #ffc800;"></i>
+          <div class="card-body">
+            <h5 class="card-title">${offer.name}</h5>
+            <p class="card-text priceoffer">${offer.price}</p>
+          </div>
+        </div>
+      `;
+      rowDiv.appendChild(offerCard);
     }
-
+  
     carouselItem.appendChild(rowDiv);
     offersContainer.appendChild(carouselItem);
     groupCount++;
-}
+  }
+//   
+

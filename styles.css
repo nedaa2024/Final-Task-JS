@@ -16,14 +16,16 @@ body {
 }
 
 
-
-
+.nav-link.active{
+  /* border-bottom: 2px solid #FFEBAF ; */
+}
 
 
 
 .contbtn:hover{
-  color: white;
-  box-shadow: none
+  color: black;
+  box-shadow: none;
+  background-color: #e6b639;
 
 }
 .contbtn:focus,.menubtn:focus{
@@ -37,6 +39,11 @@ body {
   border-color:transparent;
 }
 
+.menubtn:hover{
+  background-color: transparent;
+  border: #e6b639 2px solid ;
+  color: white;
+}
 
 /* *------------offer section--------------- */
 .overlay{
@@ -68,7 +75,7 @@ body {
 .header h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  margin-top: 100px;
+  margin-top: 167px;
 }
 
 .header p {
@@ -151,7 +158,7 @@ box-shadow: none !important;
   flex-wrap: nowrap;
 }  
 .cardoffer{
-  height: 67%;
+  height: 65%;
   border-radius: 30px;
   border: none;
   background-color: #f8f3ea40;
@@ -182,7 +189,7 @@ box-shadow: none !important;
 
 }
 .carousel .carousel-item {
-  transition: transform 0.7s ;
+  /* transition: transform 0.7s ; */
 }
 
 .carousel-inner {
