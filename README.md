@@ -4,7 +4,7 @@ Create a simple and professional restaurant website with Home, Menu, and Contact
 
 ## Demo
 
-To see a live demo of the project, [click here](https://superb-baklava-d307c0.netlify.app/).
+To see a live demo of the project, [click here](https://sparkling-peony-3b2894.netlify.app/).
 
 
 ## Features
