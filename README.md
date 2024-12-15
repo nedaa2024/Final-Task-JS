@@ -3,11 +3,8 @@
 Create a simple and professional restaurant website with Home, Menu, and Contact Us pages. Each page shares the same header and footer.
 
 ## Demo
-<<<<<<< HEAD
+
 To see a live demo of the project, [click here](https://superb-baklava-d307c0.netlify.app/).
-=======
-To see a live demo of the project, [click here](https://rad-platypus-beffb0.netlify.app/).
->>>>>>> dc536d39fbb835934ab73708333e73635764623f
 
 
 ## Features
