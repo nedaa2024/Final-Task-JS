@@ -3,7 +3,7 @@
 Create a simple and professional restaurant website with Home, Menu, and Contact Us pages. Each page shares the same header and footer.
 
 ## Demo
-To see a live demo of the project, [click here](https://kaleidoscopic-kitten-0d01ae.netlify.app/).
+To see a live demo of the project, [click here](https://superb-baklava-d307c0.netlify.app/).
 
 
 ## Features
